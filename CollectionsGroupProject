@@ -59,6 +59,7 @@ namespace Module7Assignment
                         break;
 
                     case "3":
+                        // Remove a key
                         Console.Write("Enter the key you want to remove: ");
                         string removeKey = Console.ReadLine();
 
@@ -75,6 +76,7 @@ namespace Module7Assignment
                    //case 4 here
 
                     case "5":
+                        // Add a value to an existing key
                         Console.Write("Enter existing key: ");
                         string existingKey = Console.ReadLine();
 
